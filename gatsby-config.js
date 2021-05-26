@@ -12,7 +12,7 @@ module.exports = {
     firstName: `Saarang`,
     lastName: `Panchavati`,
     description: `Saarang's personal site`,
-    occupation: `Graduate Student`,
+    occupation: `Graduate Student @ UCLA`,
     keywords: [`Saarang`, `Panchavati`, `Personal`, `Blog`, `Resume`, `Projects`, `Work`],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,

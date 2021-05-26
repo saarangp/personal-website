@@ -50,10 +50,13 @@ export default ({ data }) => {
           </p> */}
           <p className="i-5 mt-4 pt-2">
             Hello there! My name is <b>{`${author}`}</b>. I am a&nbsp;
-            <b>{occupation}</b> in the <a href = "https://mii.ucla.edu/">Medical Informatics</a> program at UCLA. I'm mainly interested in deep learning methods as applied to various problems in medicine. I'm also particularly interested in computational neuroscience and clinical informatics. I'd also like to start doing more scientific outreach (hence this website)!
+            <b>{occupation}</b> in the <a href = "https://mii.ucla.edu/">Medical Informatics</a> program. I'm mainly interested in deep learning methods as applied to various problems in medicine. I'm also particularly interested in computational neuroscience and clinical informatics. I'd also like to start doing more scientific outreach (hence this website)!
+          </p>
+          <p>
+            I just graduated from UC Berkeley, where I studied Bioengineering and Electrical Engineering & Computer Science (EECS). At Berkeley I was involved in the Maharbiz Lab, working on accelerated aging experiments for micro neural interfaces. I was also involved with founding and running the <a href = "https://neurotech.berkeley.edu/">Neurotech@Berkeley club</a>, where we worked on various projects to educate and be educated about neurotech. 
           </p>
           <p className="i-5">
-            In my spare time, I enjoy playing piano, hiking, watching sports, playing/watching soccer (come on you gunners!), and playing chess. 
+            In my spare time, I enjoy playing piano, hiking, watching sports, playing/watching soccer and reading random Wikipedia pages. I am a huge fan of Arsenal (come on you gunners!) and FC Barcelona. My favorite artists are Odesza, Daft Punk, Coldplay, and Jacob Collier. I recently fell into the chess craze, and love playing on <a href = "https://lichess.org/">lichess</a>.
           </p>
           <p className="i-5">
             Check out my <Link to="/projects">projects</Link> to see what I've
