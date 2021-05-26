@@ -20,6 +20,7 @@ $themes: (
     titleColor: $dark-blue,
     hrefColor: $dark-blue,
     github: $black,
+    twitter: $twitter-blue,
     linkedin: $linkedin-blue,
     fcc: $fcc-green,
     hr: $hr-green,
@@ -42,12 +43,13 @@ $themes: (
     themeColor: $dark-red,
     heartColor: red,
     github: $empire-red,
+    twitter: $empire-red,
     linkedin: $empire-red,
     fcc: $empire-red,
     hr: $empire-red,
     mail: $empire-red,
     file: $empire-red,
-    iconBackground: $black,
+    iconBackground: $dark-gray,
     cardBackground: $dark-gray,
   ),
 );
@@ -161,6 +163,9 @@ $themes: (
     background: themed("iconBackground");
     &.github {
       color: themed("github");
+    }
+    &.twitter {
+      color: themed("twitter");
     }
     &.linkedin {
       color: themed("linkedin");
