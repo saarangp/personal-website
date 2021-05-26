@@ -53,12 +53,12 @@ export default ({ data }) => {
             <b>{occupation}</b> in the <a href = "https://mii.ucla.edu/">Medical Informatics</a> program at UCLA. I'm mainly interested in deep learning methods as applied to various problems in medicine. I'm also particularly interested in computational neuroscience and clinical informatics. I'd also like to start doing more scientific outreach (hence this website)!
           </p>
           <p className="i-5">
-            In my spare time, I enjoy playing piano, hiking, playing/watching soccer (come on you gunners!), 
+            In my spare time, I enjoy playing piano, hiking, watching sports, playing/watching soccer (come on you gunners!), and playing chess. 
           </p>
           <p className="i-5">
             Check out my <Link to="/projects">projects</Link> to see what I've
-            been up to! Or check out my <Link to="/blog">blog</Link> to see
-            what's recently caught my eye!
+            been doing! Or check out my <Link to="/blog">blog</Link> to see
+            some of my shower thoughts. 
           </p>
         </article>
         <article className="w-75 m-auto">
