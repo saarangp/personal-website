@@ -40,14 +40,14 @@ export default ({ data }) => {
           alt={author}
         />
         <article className="w-75 m-auto pt-2 text-justify">
-          <p className="text-center">
+          {/* <p className="text-center">
             {designations.map((attr, i) => (
               <span key={attr}>
                 &nbsp;<b>{attr}</b>&nbsp;
                 {i < designations.length - 1 && <>||</>}
               </span>
             ))}
-          </p>
+          </p> */}
           <p className="i-5 mt-4 pt-2">
             Hello there! My name is <b>{`${author}`}</b>. I am a&nbsp;
             <a
@@ -98,7 +98,7 @@ export default ({ data }) => {
             </>
           )}
           <hr />
-          <h5 className="watch-list-title pt-4">
+          {/* <h5 className="watch-list-title pt-4">
             Here are a couple of books from my reading list:
           </h5>
           <ul style={{ fontSize: "0.9rem", listStyle: "none" }}>{bookLinks}</ul>
@@ -111,7 +111,7 @@ export default ({ data }) => {
           </h5>
           <p>
             <i>...waaaay too many to list.</i>
-          </p>
+          </p> */}
         </article>
       </Container>
     </PageLayout>
